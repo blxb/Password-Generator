@@ -8,3 +8,4 @@ generatedPass = ""
 for i in range(askLength):
     generatedPass += random.choice(allowedStr)
 
+print(generatedPass)
